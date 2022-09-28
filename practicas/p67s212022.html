@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="mailto:correo@gmail.com" method="post"></form>
+    <label for="nomusr">Ingresa el usuario</label>
+    <input type="text" name="nomusr" placeholder="Usuario">
+    <br>
+    <label for="contra">Contraseña</label>
+    <input type="password" name="contra" placeholder="Contraseña">
+    <br>
+    <label for="date">Fecha</label>
+    <input type="date" name="fecha">
+    <br>
+    <label for="numero">Numero</label>
+    <input type="number" name="numero">
+    <br>
+    <label for="telefono">Telefono</label>
+    <input type="tel" name="telefono">
+    <br>
+    <label for="internet">Uso de internet</label>
+    <br>
+    <label for="casa">Casa</label>
+    <input type="checkbox" name="escuela">
+    <label for="escuela">Escuela</label>
+    <input type="checkbox" name="escuela">
+    <label for="otros">Otros</label>
+    <input type="checkbox" name="otros">
+    <br>
+    <label for="sexo">Marque su sexo</label>
+    <br>
+    <input type="radio" name="sexo" value="hombre">
+    <label for="hombre">Hombre</label>
+    <input type="radio" name="sexo" value="mujer">
+    <label for="mujer">Mujer</label>
+    <input type="radio" name="sexo" value="nobinario">
+    <label for="nobinario">No binario</label>
+    <br>
+    <label for="colores">Colores</label>
+    <input type="color">
+    <br>
+    <label for="listacolores">Lista de colores</label>
+    <select name="listacolores">
+        <option value="rojo">Rojo</option>
+        <option value="azul">Azul</option>
+        <option value="verde">Verde</option>
+    </select>
+    <br>
+    <label for="pais">Pais de origen</label>
+    <input list="paises" name="pais"/>
+    <datalist id="paises">
+        <option value="Mexico">
+        <option value="USA">
+        <option value="Canada">
+    </datalist>
+    <br>
+    <input type="submit" value="Enviar informacion">
+</body>
+</html>

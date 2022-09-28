@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Utilizacion de tablas en html</p>
+    <p>Declaracion de una tabla es con 
+        "table" <br>
+        Elementos de la tabla: <br>
+        tr -> table row, fila en la tabla <br>
+        th -> table head, encabezado de la tabla <br>
+        td -> table data, datos de la tabla
+    </p>
+    <table border="1" width="60%" bgcolor="yellow">
+        <tr bgcolor="green">
+            <th>Nombre</th>
+            <th>Sexo</th>
+            <th>Edad</th>
+        </tr>
+        <tr bgcolor="blue">
+            <td>Fernando Hernandez</td>
+            <td>Masculino</td>
+            <td>23</td>
+        </tr>
+        <tr bgcolor="red">
+            <td>Daniel Galicia</td>
+            <td>Masculino</td>
+            <td>21</td>
+        </tr>
+        <tr bgcolor="orange">
+            <td>Alexis Santillan</td>
+            <td>No binaria</td>
+            <td>21</td>
+        </tr>
+        <tr>
+        <td>Jorge Campos</td>
+        <td>Masculino</td>
+        <td>52</td>
+        </tr>
+    </table>
+    <br><br>
+    <table border="1">
+        <tr>
+            <th>Nombre</th>
+            <th>Dirección web</th>
+            <th colspan="2">Acciones</th>
+        </tr>
+        <tr>
+            <td>Fernando Hernandez</td>
+            <td>fer@gmail.com</td>
+            <td>Editar</td>
+            <td>Borrar</td>
+        </tr>
+        <tr>
+            <td>Daniel Galicia</td>
+            <td>dani456@gnmail.com</td>
+            <td>Editar</td>
+            <td>Borrar</td>
+        </tr>
+        <tr>
+            <td>Alexis Santillan</td>
+            <td>alex69@gmail.com</td>
+            <td>Editar</td>
+            <td>Borrar</td>
+        </tr>
+        <tr>
+        <td>Jorge Campos</td>
+        <td>jorge@gmail.com</td>
+        <td>Editar</td>
+        <td>Borrar</td>
+        </tr>
+    </table>
+    <br><br><br>
+    <table border="1">
+        <table border="1">
+        <tr>
+            <th>Unidad</th>
+            <th>SubUnidad</th>
+            <th>Tema</th>
+        </tr>
+        <tr>
+            <td rowspan="3" align="center">1</td>
+            <td>1.1</td>
+            <td>Tema 1.1</td>
+        </tr>
+        <tr>
+            <td>1.2</td>
+            <td>Tema 1.2</td>
+        </tr>
+        <tr>
+            <td>1.3</td>
+            <td>Tema 1.3</td>
+        </tr>
+        <tr>
+            <td rowspan="3" align="center">2</td>
+            <td>2.1</td>
+            <td>Tema 2.1</td>
+        </tr>
+        <tr>
+            <td>2.2</td>
+            <td>Tema 2.2</td>
+        </tr>
+        <tr>
+            <td>2.3</td>
+            <td>Tema 2.3</td>
+        </tr>  
+        <tr>
+            <td rowspan="3" align="center">3</td>
+            <td>3.1</td>
+            <td>Tema 3.1</td>
+        </tr>
+        <tr>
+            <td>3.2</td>
+            <td>Tema 3.2</td>
+        </tr>
+        <tr>
+            <td>3.3</td>
+            <td>Tema 3.3</td>
+        </tr> 
+        
+    </table>
+    <br><br><br>
+    <table border="1">
+        <caption>Este es el curso de tablas mas completo</caption>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>Sexo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <tr>
+                    <td>Fernando Hernandez</td>
+                    <td>Masculino</td>
+                    <td>23</td>
+                </tr>
+                <tr>
+                    <td>Daniel Galicia</td>
+                    <td>Masculino</td>
+                    <td>21</td>
+                </trolor=>
+                <tr>
+                    <td>Alexis Santillan</td>
+                    <td>No binaria</td>
+                    <td>21</td>
+                </tr>
+                <tr>
+                <td>Jorge Campos</td>
+                <td>Masculino</td>
+                <td>52</td>
+                </tr>
+        </tbody>
+        <tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3" align="right"><font size="-2">Practica realizada por 7S21</font></td>
+                </tr>
+            </tfoot>
+        </tbody>
+    </table>
+</body>
+</html>

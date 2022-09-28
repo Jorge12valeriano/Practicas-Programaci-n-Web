@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 2em;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.titulo{
+    background-color: rgb(101, 230, 50);
+    font-size: 12pt;
+}
+
+input[type=text], input[type=password], input[type=submit]{
+    font-size: 22px;
+}
